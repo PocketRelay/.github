@@ -1,2 +1,0 @@
-# PocketRelay
-PocketRelay organization repository
