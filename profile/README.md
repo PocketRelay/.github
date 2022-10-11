@@ -1,5 +1,3 @@
-![Logo](../assets/logo.png)
-
 # Pocket Relay
 
 `Mass Effect 3 Multiplayer Emulation Project`
