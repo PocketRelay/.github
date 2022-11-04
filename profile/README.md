@@ -32,6 +32,11 @@ encoding packets
 ### Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
 This is the current working server that runs on the JVM and is written in Kotlin.
 
+### Rust Server (https://github.com/PocketRelay/ServerRust)
+
+This is the repository which contains the work in progress Rust implementation of Pocket Relay. This implemention greatly
+improves upon the Kotlin implementation with performance.
+
 
 ### Client (https://github.com/PocketRelay/Client)
 This is the new client written in Rust. This is apart of the new architecture which moves SSLv3 away from
@@ -39,7 +44,3 @@ the server and instead implements the redirector on the client side. This will b
 when Blaze SSL is complete
 
 The original proof of concept for this was written in Kotlin and is archived here https://github.com/PocketRelay/ClientKotlin
-
-### Rust Server (https://github.com/PocketRelay/ServerRust)
-
-This is the repository where the future Rust server implementation will be located.
