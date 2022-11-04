@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/PocketRelay/.github/main/assets/logo-new-text.svg" width="100%" height="160px">
+
 # Pocket Relay
 
 `Mass Effect 3 Multiplayer Emulation Project`
