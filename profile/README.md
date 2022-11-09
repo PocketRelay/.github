@@ -6,10 +6,19 @@
 
 Pocket Relay is a project which provides reverse engineered servers for Mass Effect 3 that emulate
 the functionality of the official servers while being able to be hosted over lan. The current server
-implementation is written in Kotlin because of SSL issues but once those have been solved through my
-[Blaze-ssl](https://github.com/jacobtread/blaze-ssl) project the backend will be re-written in Rust
+implementation is written in Kotlin because of SSL issues but those issues have been solved through my
+[Blaze-ssl](https://github.com/jacobtread/blaze-ssl) project and the backend is currently being re-written
+in Rust.
 
 ## Projects
+
+### Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
+This is the current working server that runs on the JVM and is written in Kotlin.
+
+### Rust Server (https://github.com/PocketRelay/ServerRust)
+
+This is the repository which contains the work in progress Rust implementation of Pocket Relay. This implemention greatly
+improves upon the Kotlin implementation with performance.
 
 ### Blaze SSL (https://github.com/jacobtread/blaze-ssl)
 
@@ -28,15 +37,6 @@ approach when encoding packets
 This is a library which implements the Blaze packet system which Mass Effect 3 uses. This library
 implements it in the Kotlin language. This library takes a DSL / Typesafe builder approach when 
 encoding packets
-
-### Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
-This is the current working server that runs on the JVM and is written in Kotlin.
-
-### Rust Server (https://github.com/PocketRelay/ServerRust)
-
-This is the repository which contains the work in progress Rust implementation of Pocket Relay. This implemention greatly
-improves upon the Kotlin implementation with performance.
-
 
 ### Client (https://github.com/PocketRelay/Client)
 This is the new client written in Rust. This is apart of the new architecture which moves SSLv3 away from
