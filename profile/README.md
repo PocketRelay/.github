@@ -20,6 +20,10 @@ This is the current working server that runs on the JVM and is written in Kotlin
 This is the repository which contains the work in progress Rust implementation of Pocket Relay. This implemention greatly
 improves upon the Kotlin implementation with performance.
 
+### Client (https://github.com/PocketRelay/Client)
+The client application which configures client computers to be able to connect to the 
+Pocket Relay server rather than the official servers.
+
 ### Blaze SSL (https://github.com/jacobtread/blaze-ssl)
 
 This is a library which implements the SSLv3 protocol with the TLS_RSA_WITH_RC4_128_SHA cipher which is 
@@ -38,9 +42,17 @@ This is a library which implements the Blaze packet system which Mass Effect 3 u
 implements it in the Kotlin language. This library takes a DSL / Typesafe builder approach when 
 encoding packets
 
-### Client (https://github.com/PocketRelay/Client)
+### RedirectorClient  (https://github.com/PocketRelay/RedirectorClient )
+
+> Note: This client implementation is no longer used and the redirector logic has been moved back
+> to the server side as it was not worth proxing all the extra data.
+
 This is the new client written in Rust. This is apart of the new architecture which moves SSLv3 away from
 the server and instead implements the redirector on the client side. This will be used with the Rust Server
 when Blaze SSL is complete
 
 The original proof of concept for this was written in Kotlin and is archived here https://github.com/PocketRelay/ClientKotlin
+
+## EA / BioWare Notice
+All code in this repository is authored by Jacobtread and none is taken from BioWare. This code has been 
+produced from studying the protocol of the official servers and emulating its functionality. This program is in no way or form supported, endorsed, or provided by BioWare or Electronic Arts.
