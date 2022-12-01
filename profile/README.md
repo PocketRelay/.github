@@ -14,13 +14,9 @@ in Rust.
 
 ## Projects
 
-### Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
-This is the current working server that runs on the JVM and is written in Kotlin.
+### Server (https://github.com/PocketRelay/ServerRust)
 
-### Rust Server (https://github.com/PocketRelay/ServerRust)
-
-This is the repository which contains the work in progress Rust implementation of Pocket Relay. This implemention greatly
-improves upon the Kotlin implementation with performance.
+This repository contains the Pocket Relay server implementaiton which is written in Rust
 
 ### Client (https://github.com/PocketRelay/Client)
 The client application which configures client computers to be able to connect to the 
@@ -43,6 +39,10 @@ approach when encoding packets
 This is a library which implements the Blaze packet system which Mass Effect 3 uses. This library
 implements it in the Kotlin language. This library takes a DSL / Typesafe builder approach when 
 encoding packets
+
+### Archived Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
+This is the previous implementation of the Pocket Relay server before the current Rust server. This
+server is written in Kotlin and requires a JVM to run and will no longer recieve updates.
 
 ### RedirectorClient  (https://github.com/PocketRelay/RedirectorClient )
 
