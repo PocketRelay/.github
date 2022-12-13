@@ -12,6 +12,26 @@ implementation is written in Kotlin because of SSL issues but those issues have 
 [Blaze-ssl](https://github.com/jacobtread/blaze-ssl) project and the backend is currently being re-written
 in Rust.
 
+## Creating a server
+
+If you would like to host a Pocket Relay server whether it be for LAN gaming or a community you can follow the
+guide [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_SERVER.md)
+
+## Connecting to a server
+
+If you would like to connect to a Pocket Relay server or would like a guide to send to others on how to connect
+to your server you can find that [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_CLIENT.md)
+
+## Setting up Manager Software
+
+For a guide to setting up your server to use with the [Manager](https://github.com/PocketRelay/PocketRelayManager) software
+you can follow the guide [Here](https://github.com/PocketRelay/.github/blob/main/manual/MANAGER_SETUP.md)
+
+## Compile Server 
+
+If you would like to compile the server yourself from source you can follow [This](https://github.com/PocketRelay/.github/blob/main/manual/BUILDING.md) Guide
+
+
 ## Projects
 
 ### Server (https://github.com/PocketRelay/ServerRust)
