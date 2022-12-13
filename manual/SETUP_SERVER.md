@@ -14,10 +14,24 @@ Pre compiled binary downloads are available below. But if you would like to comp
 
 You can view the latest server download [Here](https://github.com/PocketRelay/ServerRust/releases/latest) or you can directly download the release for your platform from one of the links below
 
+**SQLite**:
+
 | Platform | Download                                                                                                |
 | -------- | ------------------------------------------------------------------------------------------------------- |
 | Windows  | [Download](https://github.com/PocketRelay/ServerRust/releases/latest/download/pocket-relay-windows.exe) |
 | Linux    | [Download](https://github.com/PocketRelay/ServerRust/releases/latest/download/pocket-relay-linux)       |
+
+
+If you want to use a binary which is compiled to use MySQL databases instead of the embedded SQLite database
+you can use a release in the following table: 
+
+**MySQL**:
+
+| Platform | Download                                                                                                |
+| -------- | ------------------------------------------------------------------------------------------------------- |
+| Windows  | [Download](https://github.com/PocketRelay/ServerRust/releases/latest/download/pocket-relay-windows-mysql.exe) |
+| Linux    | [Download](https://github.com/PocketRelay/ServerRust/releases/latest/download/pocket-relay-linux-mysql)       |
+
 
 
 ### 2) Move to own directory
