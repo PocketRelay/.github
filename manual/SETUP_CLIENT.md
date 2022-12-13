@@ -44,7 +44,7 @@ Press "Ok" to go back to the home screen
 
 ### 4) Connection URL
 
-The server hoster will know this connection URL ask them to provide you with this. If you are the server hoster refer to step 4 "Connection URL" in the Server Setup Guide to find this value.
+The server hoster will know this connection URL ask them to provide you with this. If you are the server hoster refer to step 4 "Connection URL" [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_SERVER.md#4-Connection-URL) in the Server Setup Guide to find this value.
 
 Enter this value into the text field named "Connection URL" then press the "Set" button
 
