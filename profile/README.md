@@ -22,6 +22,10 @@ This repository contains the Pocket Relay server implementaiton which is written
 The client application which configures client computers to be able to connect to the 
 Pocket Relay server rather than the official servers.
 
+### Manager (https://github.com/PocketRelay/PocketRelayManager)
+
+This repository contains a seperate client used for managing Pocket Relay servers. It allows you to edit players, inventories, class levels, etc and view currently playing games
+
 ### Blaze SSL (https://github.com/jacobtread/blaze-ssl)
 
 This is a library which implements the SSLv3 protocol with the TLS_RSA_WITH_RC4_128_SHA cipher which is 
