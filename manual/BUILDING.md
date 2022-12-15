@@ -13,8 +13,6 @@ you can install both of these using Rustup which you can install using the guide
 
 ## Crates.io
 
-> NOTE This section is only for when the next stable release is published to crates.io until that happens attempting to install without specifiying the version flag (i.e. --version 0.1.2-alpha) will result in a broken hello world app installing instead
-
 If you have Rust installed you can automatically download, compile, and install the server using the following command
 
 ```shell
