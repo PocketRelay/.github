@@ -14,7 +14,7 @@ This section is for if you are using Windows and would like to use the Client to
 
 ### 1) Download Client
 
-- **Link to latest release**: https://github.com/PocketRelay/Client/latest
+- **Link to latest release**: https://github.com/PocketRelay/Client/releases/latest
 
 You can download the latest client release from [Here](https://github.com/PocketRelay/Client/releases/latest/download/pocket-relay-client.exe) . This application is portable and doesn't create any additional files outside of the game directory so you can place this executable wherever you like or just in your Downloads folder.
 
