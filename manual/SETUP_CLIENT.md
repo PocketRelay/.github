@@ -4,9 +4,9 @@
 
 In order for your client to be able to connect to Pocket Relay servers we will need to modify somes files and add some files to our game directory.
 
-On Windows this can be done automatically with the client tool see the [[#Windows]] section
+On Windows this can be done automatically with the client tool see the [#Windows](#windows) section
 
-If you would like to manually make the required changes or are using linux with wine or some other application to run Mass Effect you can follow the [[#Manual]] section
+If you would like to manually make the required changes or are using linux with wine or some other application to run Mass Effect you can follow the [#Manual](#manual) section
 
 ## Windows
 
@@ -60,7 +60,7 @@ Press "Ok" to return to the home screen
 
 Your game will now be able to connect to the Pocket Relay server that you've setup. When you first open the game. The client screen should now look like the following
 
-![Client Screen Set](manual/pictures/client-home-set.png)
+![Client Screen Set](./pictures/client-home-set.png)
 
 Note: If the server IP address changes or you wish to connect to a different server 
 
@@ -78,7 +78,7 @@ To uninstall Pocket relay open the client and select "Remove" to remove the redi
 
 >If you've followed the automatic install guide you do not need to continue reading you are finished.
 
-##  Manual
+## Manual
 
 This section is for manually setting up your Mass Effect 3 client and computer to work with Pocket Relay servers this tutorial is for both Windows and Linux
 
