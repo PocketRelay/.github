@@ -46,7 +46,15 @@ Pocket Relay server rather than the official servers.
 
 This repository contains a seperate client used for managing Pocket Relay servers. It allows you to edit players, inventories, class levels, etc and view currently playing games
 
+### Blaze SSL Async (https://github.com/jacobtread/blaze-ssl-async)
+
+This is a custom implementation of the legacy SSLv3 protocol along with the 
+TLS_RSA_WITH_RC4_128_SHA and TLS_RSA_WITH_RC4_128_MD5 cipher suites in order to 
+support the required connections for gosredirector.ea.com. Common issue facing previous versions was finding support for this protocol and ciphers as due to how old it is most implementations require hacky solutions in order to enable it but this implementation is a pure rust implementation.
+
 ### Blaze SSL (https://github.com/jacobtread/blaze-ssl)
+
+> Note: This is the syncronous version of Blaze SSL Async and is no longer maintained as its been superseeded by the asyncversion
 
 This is a library which implements the SSLv3 protocol with the TLS_RSA_WITH_RC4_128_SHA cipher which is 
 required for the first redirection step of emulating Mass Effect 3 servers. This is being created to 
