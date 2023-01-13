@@ -34,7 +34,7 @@ If you would like to compile the server yourself from source you can follow [Thi
 
 ## Projects
 
-### Server (https://github.com/PocketRelay/ServerRust)
+### Server (https://github.com/PocketRelay/Server)
 
 This repository contains the Pocket Relay server implementaiton which is written in Rust
 
