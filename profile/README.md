@@ -64,7 +64,8 @@ replace hacky tweaks with SChannel / the Java JDK SSL
 
 This is a library which implements the Blaze packet system which Mass Effect 3 uses. This library
 implements it in the Rust language. This library takes a encoding and decoding from structures 
-approach when encoding packets
+approach when encoding packets. Through many improvements this library now also includes a packet routing system for routing
+packets to functions
 
 ### BlazeKT (https://github.com/jacobtread/BlazeKt)
 
@@ -81,9 +82,9 @@ server is written in Kotlin and requires a JVM to run and will no longer recieve
 > Note: This client implementation is no longer used and the redirector logic has been moved back
 > to the server side as it was not worth proxing all the extra data.
 
-This is the new client written in Rust. This is apart of the new architecture which moves SSLv3 away from
-the server and instead implements the redirector on the client side. This will be used with the Rust Server
-when Blaze SSL is complete
+This was a concept version of the client where rather than having the Redirector portion on the server side it was on the
+client side. This was scrapped as it required more resources 
+than was actually worth it
 
 The original proof of concept for this was written in Kotlin and is archived here https://github.com/PocketRelay/ClientKotlin
 
