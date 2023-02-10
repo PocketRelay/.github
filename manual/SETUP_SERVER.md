@@ -88,7 +88,7 @@ In order to further configure your server and change different settings see [Her
 Optionally if you are using Docker you can use the following command to create a new Pocket Relay server from the docker image or configure a container in Docker Desktop for the `jacobtread/pocket-relay:latest` image
 
 ```shell
-docker run -d -p 80:80/tcp -p 14219:14219/tcp -p 42127:42127/tcp jacobtread/pocket-relay:latest 
+docker run -d -p 80:80/tcp -p 14219:14219/tcp -p 42127:42127/tcp -p 9988:9988/tcp -p 17499:17499/udp jacobtread/pocket-relay:latest 
 ```
 
 The `-p` arguments bind the ports for the servers running inside the image. The exposed port 42127 must always stay the same or else clients will be unable to connect to the server. 
