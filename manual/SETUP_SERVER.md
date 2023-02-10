@@ -96,3 +96,20 @@ The `-p` arguments bind the ports for the servers running inside the image. The 
 > See the configuration guide for changing ports and other configuration
 > [Here](https://github.com/PocketRelay/ServerRust/blob/master/docs/CONFIG.md)
 
+
+
+## Port Forwarding
+
+If you would like to make your server accessible from outside your local network you will need to port forward on your router the following are
+the ports that you will need to forward.
+
+| Protocol | Port  | What              |
+|----------|-------|-------------------|
+| TCP      | 42127 | Redirector server |
+| TCP      | 14219 | Main server       |
+| TCP      | 80    | HTTP server       |
+| TCP      | 9988  | Telemetry server  |
+| UDP      | 17499 | QOS server        |
+
+> If you have changed any of the ports in your configuration file then you
+> will need to forward those changed ports instead
