@@ -7,10 +7,7 @@
 [Discord Server (https://discord.gg/yvycWW8RgR)](https://discord.gg/yvycWW8RgR)
 
 Pocket Relay is a project which provides reverse engineered servers for Mass Effect 3 that emulate
-the functionality of the official servers while being able to be hosted over lan. The current server
-implementation is written in Kotlin because of SSL issues but those issues have been solved through my
-[Blaze-ssl](https://github.com/jacobtread/blaze-ssl) project and the backend is currently being re-written
-in Rust.
+the functionality of the official servers while being able to be hosted over lan.
 
 ## Creating a server
 
