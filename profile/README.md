@@ -19,11 +19,6 @@ guide [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_SERVE
 If you would like to connect to a Pocket Relay server or would like a guide to send to others on how to connect
 to your server you can find that [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_CLIENT.md)
 
-## Setting up Manager Software
-
-For a guide to setting up your server to use with the [Manager](https://github.com/PocketRelay/PocketRelayManager) software
-you can follow the guide [Here](https://github.com/PocketRelay/.github/blob/main/manual/MANAGER_SETUP.md)
-
 ## Compile Server 
 
 If you would like to compile the server yourself from source you can follow [This](https://github.com/PocketRelay/.github/blob/main/manual/BUILDING.md) Guide
@@ -39,9 +34,6 @@ This repository contains the Pocket Relay server implementaiton which is written
 The client application which configures client computers to be able to connect to the 
 Pocket Relay server rather than the official servers.
 
-### Manager (https://github.com/PocketRelay/PocketRelayManager)
-
-This repository contains a seperate client used for managing Pocket Relay servers. It allows you to edit players, inventories, class levels, etc and view currently playing games
 
 ### Blaze SSL Async (https://github.com/jacobtread/blaze-ssl-async)
 
@@ -69,6 +61,12 @@ packets to functions
 This is a library which implements the Blaze packet system which Mass Effect 3 uses. This library
 implements it in the Kotlin language. This library takes a DSL / Typesafe builder approach when 
 encoding packets
+
+### Archived Manager (https://github.com/PocketRelay/PocketRelayManager)
+
+This repository previously contained the management tool used to manage players and games on 
+the server. It has since been archived and replaced by the dashboard interface which is now
+built into Pocket Relay.
 
 ### Archived Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
 This is the previous implementation of the Pocket Relay server before the current Rust server. This
