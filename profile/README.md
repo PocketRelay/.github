@@ -4,7 +4,9 @@
 
 `Mass Effect 3 Multiplayer Emulation Project`
 
-[Discord Server (https://discord.gg/yvycWW8RgR)](https://discord.gg/yvycWW8RgR)
+[Discord Server (discord.gg/yvycWW8RgR)](https://discord.gg/yvycWW8RgR)
+
+[Website (pocket-relay.pages.dev/)](https://pocket-relay.pages.dev/)
 
 Pocket Relay is a project which provides reverse engineered servers for Mass Effect 3 that emulate
 the functionality of the official servers while being able to be hosted over lan.
