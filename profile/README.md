@@ -6,25 +6,18 @@
 
 [Discord Server (discord.gg/yvycWW8RgR)](https://discord.gg/yvycWW8RgR)
 
-[Website (pocket-relay.pages.dev/)](https://pocket-relay.pages.dev/)
+[Website (pocket-relay.pages.dev/)](https://pocket-relay.pages.dev)
 
 Pocket Relay is a project which provides reverse engineered servers for Mass Effect 3 that emulate
 the functionality of the official servers while being able to be hosted over lan.
 
-## Creating a server
+## 📌 EA / BioWare Notice
+The Pocket Relay software in all its forms are in no way or form supported, endorsed, or provided by BioWare or Electronic Arts.
 
-If you would like to host a Pocket Relay server whether it be for LAN gaming or a community you can follow the
-guide [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_SERVER.md)
+## Instructions
 
-## Connecting to a server
-
-If you would like to connect to a Pocket Relay server or would like a guide to send to others on how to connect
-to your server you can find that [Here](https://github.com/PocketRelay/.github/blob/main/manual/SETUP_CLIENT.md)
-
-## Compile Server 
-
-If you would like to compile the server yourself from source you can follow [This](https://github.com/PocketRelay/.github/blob/main/manual/BUILDING.md) Guide
-
+For instructions on creating or connecting to a server see the guides on the **Pocket Relay** website 
+[Guides](https://pocket-relay.pages.dev/guide/)
 
 ## Projects
 
@@ -85,6 +78,3 @@ than was actually worth it
 
 The original proof of concept for this was written in Kotlin and is archived here https://github.com/PocketRelay/ClientKotlin
 
-## EA / BioWare Notice
-All code in this repository is authored by Jacobtread and none is taken from BioWare. This code has been 
-produced from studying the protocol of the official servers and emulating its functionality. This program is in no way or form supported, endorsed, or provided by BioWare or Electronic Arts.
