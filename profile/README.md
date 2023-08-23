@@ -37,79 +37,42 @@ For instructions on creating or connecting to a server see the guides on the **P
 
 ## Projects
 
-### Server (https://github.com/PocketRelay/Server)
+Below are links and descriptions of associated projects
 
-This repository contains the code for the server portion of **Pocket Relay**. This is the server
-that clients connect to in order to play the game
+- [Pocket Relay Server](https://github.com/PocketRelay/Server)
+  - This repository contains the code for the server portion of **Pocket Relay**. This is the server that clients connect to in order to play the game
+- [Pocket Relay Client](https://github.com/PocketRelay/Client)
+  - The client application which configures client computers to be able to connect to **Pocket Relay** servers rather than the official servers.
+- [Pocket Relay Embedded Client](https://github.com/PocketRelay/EmbeddedClient)
+  - This repository contains the code for a new _experimental_ type of **Pocket Relay** client that directly hooks into the games host resolution. This removes the need for the client to require admin permissions and access the hosts file.
+  - > **Warning**
+    > This version is still experimental and may be incompatible with some mods or versions of the game
+- [Pocket Relay Dashboard](https://github.com/PocketRelay/Dashboard)
+  - This repository contains the source code for the dashboard that **Pocket Relay** uses
+- [Pocket Ark Server](https://github.com/PocketRelay/PocketArk)
+  - This repository contains the code for the server portion of **Pocket Ark**. This is the server that clients connect to in order to play the game
+- [Pocket Ark Client](https://github.com/PocketRelay/PocketArkClient)
+  - The client application which configures client computers to be able to connect to **Pocket Ark** servers rather than the official servers.
+- [Pocket Ark Hooks](https://github.com/PocketRelay/PocketArkHooks)
+  - Hooking DLL to patch Mass Effect Andromeda and provide support for **Pocket Ark** servers
+- [Blaze SSL Async](https://github.com/jacobtread/blaze-ssl-async)
+  - This is a minimal Rust implementation of the SSLv3 protocol specifically to support connections from the Mass Effect 3 client this is used by the client tool in order to handle trafic without requiring on hacky system tweaks or large C libraries.
+  - The previous syncronous version of this is no longer maintained but is still visible at https://github.com/jacobtread/blaze-ssl
+- [BlazePK](https://github.com/jacobtread/BlazePK-rs)
+  - Library which provides encoding, decoding, framing, and routing support for the packets that ME3 uses
 
-### Client (https://github.com/PocketRelay/Client)
 
-The client application which configures client computers to be able to connect to
-**Pocket Relay** servers rather than the official servers.
+## Archived Projects
 
-### Embedded Client (https://github.com/PocketRelay/EmbeddedClient)
+Below are projects that were previously used for this but have since been archived/deprecated
 
-This repository contains the code for a new _experimental_ type of **Pocket Relay** client
-that directly hooks into the games host resolution. This removes the need for the client to
-require admin permissions and access the hosts file.
-
-> This version is still experimental and may be incompatible with some mods or versions of the game
-
-### Dashboard (https://github.com/PocketRelay/Dashboard)
-
-This repository contains the source code for the dashboard that **Pocket Relay** uses
-
-### Pocket Ark Server (https://github.com/PocketRelay/PocketArk)
-
-This repository contains the code for the server portion of **Pocket Ark**. This is the server
-that clients connect to in order to play the game
-
-### Pocket Ark Client (https://github.com/PocketRelay/PocketArkClient)
-
-The client application which configures client computers to be able to connect to
-**Pocket Ark** servers rather than the official servers.
-
-### Pocket Ark Hooks (https://github.com/PocketRelay/PocketArkHooks)
-
-Hooking DLL to patch Mass Effect Andromeda and provide support for **Pocket Ark** servers
-
-### Blaze SSL Async (https://github.com/jacobtread/blaze-ssl-async)
-
-This is a custom implementation of the legacy SSLv3 protocol along with the 
-TLS_RSA_WITH_RC4_128_SHA and TLS_RSA_WITH_RC4_128_MD5 cipher suites in order to 
-support the required connections for gosredirector.ea.com. Common issue facing previous versions was finding support for this protocol and ciphers as due to how old it is most implementations require hacky solutions in order to enable it but this implementation is a pure rust implementation.
-
-### Blaze SSL (https://github.com/jacobtread/blaze-ssl)
-
-This is the syncronous version of Blaze SSL Async and is no longer maintained as its been superseeded by the async version
-
-### BlazePK (https://github.com/jacobtread/BlazePK-rs)
-
-This is a library which implements the Blaze packet system which Mass Effect 3 uses. This library
-implements it in the Rust language. This library takes a encoding and decoding from structures 
-approach when encoding packets. Through many improvements this library now also includes a packet routing system for routing
-packets to functions
-
-### BlazeKT (https://github.com/jacobtread/BlazeKt)
-
-This is a library which implements the Blaze packet system which Mass Effect 3 uses. This library
-implements it in the Kotlin language. This library takes a DSL / Typesafe builder approach when 
-encoding packets
-
-### Archived Manager (https://github.com/PocketRelay/PocketRelayManager)
-
-This repository previously contained the management tool used to manage players and games on 
-the server. It has since been archived and replaced by the dashboard interface which is now
-built into Pocket Relay.
-
-### Archived Kotlin Server (https://github.com/PocketRelay/ServerKotlin)
-This is the previous implementation of the Pocket Relay server before the current Rust server. This
-server is written in Kotlin and requires a JVM to run and will no longer recieve updates.
-
-### RedirectorClient  (https://github.com/PocketRelay/RedirectorClient )
-
-Previous iteration of a attempt at a redirector client. It was previously abandoned as it wasn't seen as the right solution
-but the idea of having the redirector on the client has since been used again after the port to the new HTTP Upgrade system
-
-The original proof of concept for this was written in Kotlin and is archived here https://github.com/PocketRelay/ClientKotlin
+- [BlazeKT](https://github.com/jacobtread/BlazeKt)
+  - Library which provided encoding and decoding support for ME3 packets back for the old Kotlin server (No longer maintained)
+- [Pocket Relay Manager](https://github.com/PocketRelay/PocketRelayManager)
+  - This repository previously contained the management tool used to manage players and games on the server. It has since been archived and replaced by the dashboard interface which is now built into Pocket Relay.
+- [Kotlin Server](https://github.com/PocketRelay/ServerKotlin)
+  - The original server implementation that was written in Kotlin
+- [Redirector Client](https://github.com/PocketRelay/RedirectorClient)
+  - Previous iteration of a attempt at a redirector client. It was previously abandoned as it wasn't seen as the right solution but the idea of having the redirector on the client has since been used again after the port to the new HTTP Upgrade system
+  - The original proof of concept for this was written in Kotlin and is archived here https://github.com/PocketRelay/ClientKotlin
 
